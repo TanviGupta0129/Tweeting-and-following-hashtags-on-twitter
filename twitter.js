@@ -58,7 +58,7 @@ async function tweetTweeter() {
     await page.goto('https://twitter.com/home');
     await page.waitForSelector('.DraftEditor-editorContainer',{waitUntil:"networkidle2"});
     await page.click('.DraftEditor-editorContainer');
-    await page.keyboard.type("Tanvi Gupta");
+    await page.keyboard.type("xxxxxxxxxxx");
     await page.waitFor(3000);
     await page.waitForSelector("div[data-testid=tweetButtonInline]");
     await page.click("div[data-testid=tweetButtonInline]");
