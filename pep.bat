@@ -1,1 +1,0 @@
-node twitter.js "credentials.json" 
